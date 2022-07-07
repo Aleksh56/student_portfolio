@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexandr Averyanov | Contact</title>
+    <link rel="icon" href="../img/mf-logo.svg" type="image/x-icon" sizes="32x32">.
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header__row">
+                <div class="header__logo">
+                    <a href="../index.html"><img src="../img/mf-logo.svg" alt="My logo" id="My_logo"></a>
+                </div>
+                <div class="header__menu">
+                    <nav>
+                        <div class="unBurger">
+                            <a href="#">
+                                Mentorship
+                            </a>
+                            <a href="../contact.html">
+                                <button class="header__menu--btn btn">
+                                    Say Hello
+                                </button>
+                            </a>
+                        </div>
+                        <div id="contain">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                        </div>
+                        <ul id="nav1" >
+                            <li><a href="#">Mentorship</a></li>
+                            <li>
+                                <a href="../contact.html">
+                                    <button class="header__menu--btn btn">
+                                        Say Hello
+                                    </button>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <section class="email__block">
+            <div class="email__row flexCenter">
+                <div class="email__logo">
+                    <img src="../img/mf-avatar.svg" alt="">
+                </div>
+                <div class="email__inputs">
+                    <div class="email__title">
+                        <span>Thanks for taking the time to reach out. How can I help you today?</span>
+                    </div>
+                    <div class="inputs">
+                        <form action="mail.php" method="post">
+                            <div class="first-line flexCenter">
+                                <input type="text" name="name" id="name" class="inp" placeholder="Your name">
+                                <input type="email" name="email" id="email" class="inp" placeholder="Your Email">
+                            </div>
+                           <div class="sec-line">
+                                <textarea name="message" id="message" class="inp" placeholder="Your message"></textarea>
+                           </div>
+                           <button class="submit-btn btn" type="submit">
+                               Submit
+                           </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+</html>

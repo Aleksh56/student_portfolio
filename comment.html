@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment me</title>
+    <link rel="icon" href="../img/mf-logo.svg" type="image/x-icon" sizes="32x32">.
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header__row">
+                <div class="header__logo">
+                    <a href="../index.html"><img src="../img/mf-logo.svg" alt="My logo" id="My_logo"></a>
+                </div>
+                <div class="header__menu">
+                    <nav>
+                        <div class="unBurger">
+                            <a href="#">
+                                Mentorship
+                            </a>
+                            <a href="../contact.html">
+                                <button class="header__menu--btn btn">
+                                    Say Hello
+                                </button>
+                            </a>
+                        </div>
+                        <div id="contain">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                        </div>
+                        <ul id="nav1" >
+                            <li><a href="#">Mentorship</a></li>
+                            <li>
+                                <a href="../contact.html">
+                                    <button class="header__menu--btn btn">
+                                        Say Hello
+                                    </button>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div class="commentAvatar">
+            <img src="../img/mf-avatar.svg" alt="">
+        </div>
+        <div class="comment__section">
+            <div class="newComment_section__row">
+                <span>Comment me!</span>
+                <input type="text" name="name" placeholder="Your name" class="comName">
+                <textarea name="message" placeholder="Enter your message" class="comMessage"></textarea>
+                <p id="commentError"></p>
+                <button class="comButton btn" type="button">Send</button>
+            </div>
+        </div>
+    </div>
+    <script src="../js/check.js"></script>
+</body>
+</html>
